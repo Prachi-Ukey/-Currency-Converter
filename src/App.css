@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #b7b7b9;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 30px !important;
+  font-weight: 700;
+  color: #333;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 55%;
+  min-width: 550px;
+  padding: 40px 50px 50px 50px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+}
+
+.currency_exchnage {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.input_container {
+  width: 30%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+}
+
+.input_label {
+  font-size: 0.95rem;
+  color: #606063;
+  font-weight: 600;
+  background: #fff;
+} 
+
+.input_field {
+  width: auto;
+  height: 60px;
+  background: #fff;
+  color: black;
+  padding: 0 0 0 20px;
+  border-radius: 7px;
+  outline: none;
+}
+
+.output {
+  margin-top: 25px;
+}
